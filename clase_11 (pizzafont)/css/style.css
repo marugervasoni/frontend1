@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    background-color: #E5E5E5;
+}
+
+/* header */
+header {
+    background-color: #222222;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.home1 {
+    align-items:center;
+    /* align-sel */
+    border: 2px solid yellow ;
+    position: relative;
+}
+
+header img {
+    border: 2px solid orange;
+}
+
+/* cajas */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.padre {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: space-around; */
+    position: relative;
+    margin: 40px 10px;
+}
+.caja {
+    border: 2px solid red;
+    /* position:; */
+}
+.uno {
+    background-image: url(/img/delivery.jpg);
+    background-repeat: no-repeat;
+    order: 1;
+    height: 350px;
+    width: 490px;
+    left: 19px;
+    top: 135px;
+    border-radius: 5px;
+}
+
+.dos {
+    order: 2;
+    height: 350px;
+    width: 491px;
+    left: 514px;
+    top: 135px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 24px;
+    font-style:normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: ;
+    color: #FC200C;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+}
+
+.top5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+}
+
+.pizzafalling {
+    height: 129px;
+    width: 92px;
+    left: 839px;
+    top: 267px;
+    border-radius: 5px;
+}
+
+/* footer */
+footer {
+    background-color: #222222;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.home2 {
+    font-size: 16px;    
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    border: 2px solid yellow ;
+    position: relative;
+}
+
+footer img {
+    border: 2px solid orange;
+}

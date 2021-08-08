@@ -1,0 +1,111 @@
+/* configuraciones generales */
+* {
+    font-family: 'Fredericka the Great', cursive;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+/* config particulares */
+#banner {
+    background-image:url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #E5E5E5;
+    height: 80%;
+    text-align: center;
+}
+
+img#foto-mia {
+    position: relative;
+    margin: 10px 0 10px 85%;
+}
+
+nav {
+    font-style: none;
+    color: #E5E5E5;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1, h2 {
+    background-color: #c4c4c4;
+    color: #005677;
+    padding: 0.25rem;
+} 
+
+h1 {
+    height: 70px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+h2 {
+    height: 30px;
+    font-size: 20px;
+    left: 150px;
+    top: 150px;
+}
+
+section {
+    margin: 3rem;
+}
+li {
+    margin-left: 1.5rem;
+}
+
+footer {
+    background-color: #005677;
+    color: #ffffff;
+    text-align: center;
+    height: 37px;
+}
+i {
+    color: #E5E5E5;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+/* configuracion sobremi.html */
+
+.tituloB {
+    color:#8142f5;
+    background-color: midnightblue;
+    font-weight: bold;
+}
+.principal { 
+    text-align: center;
+    font-size: 40px;
+    padding: 1rem;
+}
+
+.dos, .tres {
+    text-align: left;
+}
+
+.textoB li,p {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    color: white
+}
+
+.textoB p {
+    text-align: justify;
+    line-height: inherit;
+}
+
+#sobre-mi {
+    background-image:url('../img/fondo.jpg');
+}
+
+/* configuracion otro-index.html */
+#otro-index {
+    padding: 0;
+    margin: 0;
+}
+

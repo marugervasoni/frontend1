@@ -1,0 +1,69 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+. bg-color-principal{
+    color de fondo:  #F0A83E;
+}
+
+. bg-color-secundario{
+    color de fondo:  #3C2313;
+}
+
+. txt-color-principal{
+    color:  #F0A83E;
+}
+
+. txt-color-secundario{
+    color:  #3C2313;
+}
+
+. txt-color-terciario{
+    color:blanco
+}
+
+. txt-color-pie de página{
+    color:gris;
+}
+
+div de encabezado {
+    color de fondo: negro;
+}
+
+Ul{
+    estilo-lista: ninguno;
+}
+
+sección. bienvenida{
+    ancho: 100% ;
+    altura: 500px ;
+    background-image: url(.. /img/Fondo.png);
+    background-size: cubierta;
+}
+
+. centrado{
+    text-align: centro;
+}
+
+. destacado{
+    color de fondo: blanco;
+    text-transform: mayúsculas;
+}
+
+. bienvenida . boton{
+    text-transform: mayúsculas;
+    radio-borde: 5px ;
+}
+
+. prod-destacados div . fas{
+    font-size: 150px ;
+}
+. prod-destacados div . titulo{
+    font-peso: 900;
+    font-size: más grande;
+    text-transform: mayúsculas;
+}
+
+pie de página . fas, . lejos{
+    font-size: 60px ;
+} 

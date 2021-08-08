@@ -1,0 +1,133 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 700; */
+    font-style: normal;
+}
+
+.banner {
+    background-position: cover;
+    width: 1500px;
+    height: 600px;
+    top: 81px;
+}
+
+button {
+    color: white;
+    background-color:#F0A83E;
+    background-position: top center;
+}
+
+.final {
+    background-color: black;
+    text-align: center;
+}
+
+.foto-producto {
+    height: 100px;
+}
+
+
+.front-cat-dog-1 {
+    background-color:#F0A83E;
+    color: white;
+    font-size: 13px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+}
+
+
+h1, h2, h3, h4 {
+    color: #3C2313;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35,16px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height:  29,3px;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+h5 {
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+}
+
+.linea1 {
+    background-color:black;
+    color: white;
+    font-size: 10px;
+    font-style: normal;
+}
+
+main {
+    background-color: white;
+}
+
+.precio {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 17,58px;
+    color: #F0A83E;
+}
+
+.productos-destacados {
+    text-align: center;
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+.es-un-placer-tenerte-aqui {
+    text-align: center;
+}
+
+section.suscribete {
+    background-color:#F0A83E;
+}
+
+.ingresar-correo {
+    color: #A0A0A0;
+
+}
+
+#suscripcion {
+    background-color: #3C2313;
+    color: #FFFFFF;
+}
+
+#suscripcion div {
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: left;
+
+}
+
+.titulo-comederos {
+    font-size: 16px;
+    line-height: 18,75px;
+}

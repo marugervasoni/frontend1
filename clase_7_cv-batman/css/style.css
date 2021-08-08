@@ -1,0 +1,32 @@
+html {
+    font-family: Times New Roman;
+}
+
+header {
+    background-color: #E5E5E5;
+    height: 100%;
+    text-align: center;
+}
+
+h1, h2 {
+    background-color: #C4C4C4;
+    color:#005677;
+}
+h1 {
+    height: 60px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+h2 {
+    height: 30px;
+}
+footer {
+    background-color: #005677;
+    color: #FFFFFF;
+    text-align: center;
+    height: 37px;
+}
