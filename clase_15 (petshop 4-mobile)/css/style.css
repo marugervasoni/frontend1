@@ -194,22 +194,14 @@ h1 {
     display: flex;
     flex-direction: column;
     background-color: #FBFAF6;
-    padding: 3px 10px;
-    margin: 1rem;
+    padding: 3px 6px;
+    margin: 1px;
     justify-content: space-between;
     position: relative;
 }
 
-.art2 {
-    left: 1rem;
-}
-
-.art4 {
-    right: 1rem;
-}
-
 .foto-producto {
-    height: 250px;
+    height: 30vh;
 }
 
 h4 {
@@ -227,6 +219,7 @@ h4 {
 h4, .precio {
     font-weight: 600;
     text-align: center;
+    padding: 1rem;
 }
 
 
@@ -269,24 +262,24 @@ h3 {
     justify-content: space-between;
     background-color:#F0A83E;
     height: 5rem;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .suscribete h5 {
     display: flex;
     align-items: center;
-    left: 1rem;
+    left: 2rem;
     position: relative;
 }
 
 .ingresar-correo {
     height: 3rem;
-    width: 30rem;
+    width: 25rem;
     background-color: white;
     font-size: 10px;
     padding: 1rem;
     margin: 1rem;
-    left: 14rem;
+    left: 10rem;
 }
 
 .suscribirme {
@@ -295,8 +288,7 @@ h3 {
     background-color: #3C2313;
     color: white;
     font-size: 16px;
-    padding: 1rem 1.5rem;
-    right: 2rem;
+    padding: 1rem;
     align-self: flex-end;
 }
 
@@ -364,29 +356,114 @@ h3 {
     justify-content: center;
 }
 
-/* responsive mobile */
+/*::::::::::::::::::::::::::::::::::
+        responsive mobile
+ ::::::::::::::::::::::::::::::::::: */
 @media (max-width: 480px) {
+    
+    /* header */
     .linea1 {
         display: none;
     }
 
     .menu1 {
-        padding: 0.5rem 0.5rem;
+        width: 100vw;
+        padding: 0.5rem 1rem;
         align-items: flex-start;
-    }
+    }  
 
     .imagen-menu1{
         height: 1rem;
         width: 7rem;
-        /* right: 0.2rem; */
-
     }
 
     .lista-menu1 {
+        border:2px solid blue;
         display: none;
     }
 
+    /* banner */
+    .es-un-placer-tenerte-aqui {
+        justify-content: center;
+        height: 10rem;
+    }
+
+    h2 {
+        font-size: 20px;
+        width: 18rem;
+        right: 1.5rem;
+        top: 0.5rem;
+    }
+
+    .titulo-comederos {
+        font-size: 15px;
+        right: 2rem;
+        top: 1rem;
+    }
+
+    .comederos {
+        right: 3rem;
+        top: 1rem; 
+    }
+
+    /* cajas */
+    .productos-destacados {
+        font-weight: bold;
+    }
+
+    .Productos {
+        flex-direction: column;
+        height: 170vh;
+        padding: 0.5rem;
+    }
+    
+    .Productos article {
+        width: 60vw;
+        height:50vh;
+        align-self: center;
+    }
+
+    .foto-producto {
+        height: 11rem;
+    }
+
+    /* seccion de contacto */
+    .contacto {
+        padding: 2rem;
+    }
+
+    .suscribete {
+        height: 7rem;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .suscribete h5 {
+        flex-direction: row;
+        width: 20rem;
+        align-items: center;
+    }
+
+    .ingresar-correo {
+        height: 2.5rem;
+        width: 13rem;
+        left: -5rem;
+    }
+
+    .suscribirme {
+        left: 7rem;
+        bottom: 3.3rem;
+        height: 1.5rem;
+    }
+
+    #suscripcion article {
+        width: 16rem;
+    } 
+
+    .logo2 {
+        bottom: 14rem;
+        width: 10rem;
+        align-items:center;
+        right: 5rem;
+    }
 }
-
-
-
