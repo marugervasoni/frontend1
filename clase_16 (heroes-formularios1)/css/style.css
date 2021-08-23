@@ -8,6 +8,7 @@ html {
     height: 100vh;
     width: 100vw;
     font-family: Roboto;
+    font-weight: 400;
 }
 
 h5 {
@@ -19,22 +20,104 @@ h5 {
 
 section, footer {
     background-color: #00669F;
+    color: white;
 }
 
 section {
     display: flex;
-    color: white;
     height: 5rem;
     padding: 1rem 3rem;
 }
 
 h3 {
-    border: 2px red solid;
+    /* border: 2px red solid; */
     align-self: center;
     padding: 0.5rem;
 }
 
 img {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 3.3rem;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 4px yellow solid;
+    height: 35.4rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+h1 {
+    padding: 5rem 0.5rem 0rem;
+    border: 2px solid blue;
+    position: relative;
+    right: 7.5rem;
+    top: 1rem;
+
+}
+
+p {
+    height: 5rem;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid red;
+    width: 25rem;
+    height: 19rem;
+    padding: 4rem 0rem 2.5rem;
+}
+
+input {
+    border: 2px solid black;
+    width: 20rem;
+    height: 2rem;
+    padding: 0.2rem;
+    margin: 0.3rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+/* botones */
+button {
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    height: 2rem;
+}
+
+.entrar, .registrar {
+    background-color: #1CD1B0;
+}
+
+.entrar{
+    padding: 0.3rem 8.7rem;
+}
+
+.reset, .registrar {
+    padding: 0.3rem 3.5rem;
+}
+
+.reset {
+    background-color: #888888;
+    color: white
+    ;
+}
+
+a {
+    /* mask-type: none; */
+}
+/* footer */
+footer {
+    padding: 0.5rem;
+    text-align: center;
+}
+
