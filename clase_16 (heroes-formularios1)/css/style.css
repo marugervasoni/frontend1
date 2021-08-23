@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    font-family: Roboto;
+}
+
+h5 {
+    font-size: 1rem;
+    height: 2.5rem;
+    background-color:#1CD1B0;
+    padding: 1rem;
+}
+
+section, footer {
+    background-color: #00669F;
+}
+
+section {
+    display: flex;
+    color: white;
+    height: 5rem;
+    padding: 1rem 3rem;
+}
+
+h3 {
+    border: 2px red solid;
+    align-self: center;
+    padding: 0.5rem;
+}
+
+img {
+    border: 2px solid yellow;
+    width: 3.3rem;
+}
