@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>LOGIN</title>
+    <title>añadi tu super</title>
 </head>
 <body>
     <header>
@@ -16,8 +16,8 @@
     </header>
     <section>
         <article class="tienda">
-        <img src="img/shop.png" alt="shop">
-        <h3>Nombre Tienda</h3>
+            <img src="img/shop.png" alt="shop">
+            <h3>Nombre Tienda</h3>
         </article>
         <article class="contacto">
             <ul type="none">
@@ -27,20 +27,53 @@
             </ul>
         </article>
     </section>
-    <main>
-        <h1>Login</h1>
-        <form action="" method="">
-            <div>
-                <label for="Usuario"></label> 
-                <input type="text" name="Usuario" id="Usuario" placeholder="Usuario">
-            </div>
-            <div>
-                <label for="password"></label>
-                <input type="password" name="password" id="Contraseña" placeholder="Contraseña">
-            </div>
-            <button class="entrar" type="submit">Entrar</button>
+    <main class="super">
+        <section>
+            <h1>Añadí tu super!</h1>
+            <p>Agregá tu personaje favorito completando las opciones</p>
+            <form action="" method="">
+        </section>
+            <section class="formulario">
+                <article class="caja">
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text" name="Nombre" id="nombre" required>
+                    </div>
+                    <div>
+                        <label>Fecha</label>
+                        <input type="date" name="Fecha" id="fecha">
+                    </div>
+                    <div>
+                        <textarea name="descrpción" id="descrpción" cols="30" rows="10" placeholder="Descripción"></textarea>
+                    </div>
+                </article>
+                <article class="caja">
+                    <div>
+                        <label>Especie</label>
+                        <input type="text" name="Especie" id="Especie" placeholder="Especie" required><select name="" id="">
+                    </div>
+                    <div>
+                        <label>Agregar foto</label>
+                        <input type="file" name="agregar-foto" accept=".jpg, .png">
+                    </div>
+                    <div>
+                        <label>Poderes
+                            <input type="checkbox" name="poderes" value="volar">Volar
+                            <input type="checkbox" name="poderes" value="superinteligencia">Superinteligencia
+                            <input type="checkbox" name="poderes" value="vista-laser">Vista de rayo laser
+                            <input type="checkbox" name="poderes" value="billetera">Billetera gorda
+                        </label>
+                    </div>
+                    <div>
+                        <label>Tipo de personaje
+                            <input type="radio" name="personaje" id="personaje">Héroe/ Heroína
+                            <input type="radio" name="personaje" id="personaje">Villano/ Villana
+                        </label>
+                    </div>
+                </article>
+            </section>
         </form>
-        <p><a href="registro.html">¿No tienes una cuenta?</a>Registrarme</p> 
+            <button class="añadir" type="submit">Añadir</button> 
     </main>
     <footer>Todos los derechos reservados a FRONT END 1</footer>
 </body>
